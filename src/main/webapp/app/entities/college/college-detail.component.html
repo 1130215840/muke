@@ -1,0 +1,31 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="college">
+            <h2><span jhiTranslate="day4MukeApp.college.detail.title">College</span> {{college.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="day4MukeApp.college.collegeName">College Name</span></dt>
+                <dd>
+                    <span>{{college.collegeName}}</span>
+                </dd>
+                <dt><span jhiTranslate="day4MukeApp.college.collegeInfo">College Info</span></dt>
+                <dd>
+                    <span>{{college.collegeInfo}}</span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/college', college.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

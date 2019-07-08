@@ -1,0 +1,23 @@
+{
+  "day4MukeApp": {
+    "teachInfo": {
+      "home": {
+        "title": "Teach Infos",
+        "createLabel": "创建新 Teach Info",
+        "createOrEditLabel": "创建或编辑 Teach Info",
+        "notFound": "No Teach Info found"
+      },
+      "created": "Teach Info {{ param }} 创建成功",
+      "updated": "Teach Info {{ param }} 更新成功",
+      "deleted": "Teach Info {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Teach Info {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Teach Info"
+      },
+      "teacherCode": "Teacher Code",
+      "courseCode": "Course Code"
+    }
+  }
+}

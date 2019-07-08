@@ -1,0 +1,27 @@
+{
+    "name": "Teacher",
+    "fields": [
+        {
+            "fieldName": "teacherName",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "college",
+            "otherEntityRelationshipName": "teacher",
+            "relationshipName": "collegeCode",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20190708073646",
+    "entityTableName": "teacher",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

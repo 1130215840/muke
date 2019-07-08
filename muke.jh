@@ -1,0 +1,61 @@
+
+
+//学校实体
+entity College {
+	collegeName String, //学校名称
+    collegeInfo String //学校简介
+}
+
+//课程实体
+entity Course {
+  courseInfo String, //课程简介
+  courseStartTime ZonedDateTime  //开课时间
+}
+
+//评论实体
+entity Comment {
+   commentContent String, //评论内容
+   commentTime ZonedDateTime //评论时间
+}
+
+//课程类型
+entity CourseType {
+   typeName String //  类名称
+}
+
+//教师实体
+entity Teacher {
+   teacherName String //教师姓名
+}
+
+//任课实体
+entity TeachInfo {
+   
+}
+
+//用户实体
+entity Student{
+   name String, //用户姓名
+   password String, //用户密码
+   phoneNumber Integer //用户手机号
+}
+
+
+relationship ManyToOne {
+	Course{teacherCode} to Teacher,
+    Course{typeCode} to CourseType,
+    Student{collegeCode} to College,
+    Teacher{collegeCode} to College,
+    Comment{studentCode} to Student,
+    Comment{courseCode} to Course,
+    TeachInfo{teacherCode} to Teacher,
+    TeachInfo{courseCode} to Course
+}
+
+
+paginate all with pagination
+
+
+service all with serviceImpl 
+
+

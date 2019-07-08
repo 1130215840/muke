@@ -1,0 +1,23 @@
+{
+    "name": "College",
+    "fields": [
+        {
+            "fieldName": "collegeName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "collegeInfo",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20190708073642",
+    "entityTableName": "college",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

@@ -1,0 +1,19 @@
+{
+    "name": "CourseType",
+    "fields": [
+        {
+            "fieldName": "typeName",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20190708073645",
+    "entityTableName": "course_type",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

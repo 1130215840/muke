@@ -1,0 +1,38 @@
+{
+    "name": "Comment",
+    "fields": [
+        {
+            "fieldName": "commentContent",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "commentTime",
+            "fieldType": "ZonedDateTime"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "student",
+            "otherEntityRelationshipName": "comment",
+            "relationshipName": "studentCode",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "course",
+            "otherEntityRelationshipName": "comment",
+            "relationshipName": "courseCode",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20190708073644",
+    "entityTableName": "comment",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

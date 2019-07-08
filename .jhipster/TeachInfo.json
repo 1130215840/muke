@@ -1,0 +1,29 @@
+{
+    "name": "TeachInfo",
+    "fields": [],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "teacher",
+            "otherEntityRelationshipName": "teachInfo",
+            "relationshipName": "teacherCode",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "course",
+            "otherEntityRelationshipName": "teachInfo",
+            "relationshipName": "courseCode",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20190708073647",
+    "entityTableName": "teach_info",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

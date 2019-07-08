@@ -1,0 +1,38 @@
+{
+    "name": "Course",
+    "fields": [
+        {
+            "fieldName": "courseInfo",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "courseStartTime",
+            "fieldType": "ZonedDateTime"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "teacher",
+            "otherEntityRelationshipName": "course",
+            "relationshipName": "teacherCode",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "courseType",
+            "otherEntityRelationshipName": "course",
+            "relationshipName": "typeCode",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20190708073643",
+    "entityTableName": "course",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

@@ -1,0 +1,23 @@
+{
+  "day4MukeApp": {
+    "college": {
+      "home": {
+        "title": "Colleges",
+        "createLabel": "创建新 College",
+        "createOrEditLabel": "创建或编辑 College",
+        "notFound": "No College found"
+      },
+      "created": "College {{ param }} 创建成功",
+      "updated": "College {{ param }} 更新成功",
+      "deleted": "College {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 College {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "College"
+      },
+      "collegeName": "College Name",
+      "collegeInfo": "College Info"
+    }
+  }
+}

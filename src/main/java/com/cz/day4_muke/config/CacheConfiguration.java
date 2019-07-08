@@ -43,6 +43,13 @@ public class CacheConfiguration {
             createCache(cm, com.cz.day4_muke.domain.User.class.getName());
             createCache(cm, com.cz.day4_muke.domain.Authority.class.getName());
             createCache(cm, com.cz.day4_muke.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.cz.day4_muke.domain.College.class.getName());
+            createCache(cm, com.cz.day4_muke.domain.Course.class.getName());
+            createCache(cm, com.cz.day4_muke.domain.Comment.class.getName());
+            createCache(cm, com.cz.day4_muke.domain.CourseType.class.getName());
+            createCache(cm, com.cz.day4_muke.domain.Teacher.class.getName());
+            createCache(cm, com.cz.day4_muke.domain.TeachInfo.class.getName());
+            createCache(cm, com.cz.day4_muke.domain.Student.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

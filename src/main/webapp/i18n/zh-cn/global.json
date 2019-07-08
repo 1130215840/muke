@@ -7,6 +7,13 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "数据",
+        "college": "College",
+        "course": "Course",
+        "comment": "Comment",
+        "courseType": "Course Type",
+        "teacher": "Teacher",
+        "teachInfo": "Teach Info",
+        "student": "Student",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

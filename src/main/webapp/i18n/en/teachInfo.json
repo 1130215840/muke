@@ -1,0 +1,23 @@
+{
+  "day4MukeApp": {
+    "teachInfo": {
+      "home": {
+        "title": "Teach Infos",
+        "createLabel": "Create a new Teach Info",
+        "createOrEditLabel": "Create or edit a Teach Info",
+        "notFound": "No Teach Info found"
+      },
+      "created": "A new Teach Info is created with identifier {{ param }}",
+      "updated": "A Teach Info is updated with identifier {{ param }}",
+      "deleted": "A Teach Info is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Teach Info {{ id }}?"
+      },
+      "detail": {
+        "title": "Teach Info"
+      },
+      "teacherCode": "Teacher Code",
+      "courseCode": "Course Code"
+    }
+  }
+}
