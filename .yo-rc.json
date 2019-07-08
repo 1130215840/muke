@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.cz.day4_muke",
+      "nativeLanguage": "zh-cn"
+    },
+    "jhipsterVersion": "6.1.2",
+    "applicationType": "monolith",
+    "baseName": "day4_muke",
+    "packageName": "com.cz.day4_muke",
+    "packageFolder": "com/cz/day4_muke",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MTEyNDVkYjk4MWM4OWJiMTI5MmVmMjliMDlmMzc2NzJkNzI0ODg0OTZlNWQ4NTg5OTc3OGViZTdjOWUwMDcwOWYzZmIxMzVlNDZkOGMxOGU0NGU5MTllMzVlNGIyNTJjMTE1MWY3YTZhY2FlZTU5OGQ5MTRlOGM5MTE5YzI4YjQ=",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "zh-cn",
+    "languages": ["zh-cn", "en"]
+  }
+}
